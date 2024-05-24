@@ -1,4 +1,8 @@
 [build]
   command = "CI=false npm run build"
-  publish = "build"          # directory where the built files are located
+  publish = "build"
 
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
