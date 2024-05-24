@@ -13,7 +13,7 @@
   publish = "build"
 
 [build.environment]
-  REACT_APP_API_BASE_URL = "https://hostingits-xhid.onrender.com/"
+  REACT_APP_API_BASE_URL = "https://totallyworking.onrender.com/"
   REACT_APP_ADMIN_DOMAIN = "https://main--extraordinary-llama-0e555a.netlify.app/"
   REACT_APP_STORE_DOMAIN = "store.example.com"
   REACT_APP_CLOUD_NAME = "dq3dppxqs"
