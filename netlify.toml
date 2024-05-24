@@ -16,3 +16,21 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Add a prebuild command to install react-google-recaptcha
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[plugins]]
+  package = "netlify-plugin-inline-functions-env"
+
+[[plugins]]
+  package = "netlify-plugin-chrome-permissions"
+
+[[plugins]]
+  package = "netlify-plugin-sitemap"
+  [plugins.inputs]
+    exclude = ["password-reset"]
+
+[[plugins]]
+  package = "netlify-plugin-purgecss"
